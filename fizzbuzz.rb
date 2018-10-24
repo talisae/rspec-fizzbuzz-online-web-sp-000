@@ -1,4 +1,13 @@
-def fizzbuzz
+def fizzbuzz(i)
+  if i % 3 == 0
+    return "Fizz"
+  elsif i % 5 == 0
+    return "Buzz"
+  elsif i % 3 && 5 == 0
+    return "FizzBuzz"
+  else !i % 3 || 5 == 0
+    return nil
+
 
 end
 
