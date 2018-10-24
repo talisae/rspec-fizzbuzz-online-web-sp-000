@@ -1,7 +1,7 @@
 def fizzbuzz(i)
   if i % 3 == 0 && i % 5 == 0
     return "FizzBuzz"
-  else !i % 3 == 0 || i % 5 == 0
+  else i % 3 == 0 || i % 5 == 0
     return nil
   end
 end
