@@ -7,8 +7,7 @@ def fizzbuzz(i)
     return "FizzBuzz"
   else !i % 3 || 5 == 0
     return nil
-
-
+  end
 end
 
 
