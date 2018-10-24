@@ -3,8 +3,8 @@ def fizzbuzz(i)
     return "FizzBuzz"
   elsif i % 3 == 0
     return "Fizz"
-  elsif i % 3 == 0
-    return "FizzBuzz"
+  elsif i % 5 == 0
+    return "Buzz"
   else !i % 3 || 5 == 0
     return nil
   end
